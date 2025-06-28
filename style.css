@@ -1,0 +1,50 @@
+body {
+  background-color: #b8c6db;
+}
+
+/* vw vh */
+.quiz-container {
+  background-color: #fff;
+  width: 600px;
+  margin: 30vh auto;
+  border-radius: 10px;
+}
+
+.quiz-content {
+  padding: 40px;
+}
+
+.quiz-container h2 {
+  text-align: center;
+  color: #333;
+}
+.quiz-content ul {
+  list-style: none;
+  padding: 0;
+}
+.quiz-content ul li {
+  font-size: 24px;
+  margin: 14px 0;
+}
+.quiz-content ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: rgb(48, 1, 48);
+}
+button:focus {
+  background-color: rgb(47, 1, 47);
+}
